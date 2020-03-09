@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA791252414B8DF00EDFF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA791242414B8DF00EDFF51 /* AppDelegate.m */; };
+		ECA791282414B8DF00EDFF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA791272414B8DF00EDFF51 /* ViewController.m */; };
+		ECA7912A2414B8E300EDFF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA791292414B8E300EDFF51 /* Assets.xcassets */; };
+		ECA7912D2414B8E300EDFF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA7912B2414B8E300EDFF51 /* Main.storyboard */; };
+		ECA791302414B8E300EDFF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA7912F2414B8E300EDFF51 /* main.m */; };
+		ECA7913B2414B8E300EDFF51 /* FirUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA7913A2414B8E300EDFF51 /* FirUploadTests.m */; };
+		ECA791462414B8E300EDFF51 /* FirUploadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA791452414B8E300EDFF51 /* FirUploadUITests.m */; };
+		ECA7915B2414B92900EDFF51 /* FinderSync.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA7915A2414B92900EDFF51 /* FinderSync.m */; };
+		ECA791602414B92900EDFF51 /* FirFinderSycn.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ECA791572414B92900EDFF51 /* FirFinderSycn.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA791372414B8E300EDFF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA791182414B8DF00EDFF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA7911F2414B8DF00EDFF51;
+			remoteInfo = FirUpload;
+		};
+		ECA791422414B8E300EDFF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA791182414B8DF00EDFF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA7911F2414B8DF00EDFF51;
+			remoteInfo = FirUpload;
+		};
+		ECA7915E2414B92900EDFF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA791182414B8DF00EDFF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA791562414B92900EDFF51;
+			remoteInfo = FirFinderSycn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECA791642414B92900EDFF51 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ECA791602414B92900EDFF51 /* FirFinderSycn.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECA791202414B8DF00EDFF51 /* FirUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA791232414B8DF00EDFF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA791242414B8DF00EDFF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA791262414B8DF00EDFF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA791272414B8DF00EDFF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA791292414B8E300EDFF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA7912C2414B8E300EDFF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA7912E2414B8E300EDFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA7912F2414B8E300EDFF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA791312414B8E300EDFF51 /* FirUpload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirUpload.entitlements; sourceTree = "<group>"; };
+		ECA791362414B8E300EDFF51 /* FirUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA7913A2414B8E300EDFF51 /* FirUploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirUploadTests.m; sourceTree = "<group>"; };
+		ECA7913C2414B8E300EDFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA791412414B8E300EDFF51 /* FirUploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirUploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA791452414B8E300EDFF51 /* FirUploadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirUploadUITests.m; sourceTree = "<group>"; };
+		ECA791472414B8E300EDFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA791572414B92900EDFF51 /* FirFinderSycn.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FirFinderSycn.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA791592414B92900EDFF51 /* FinderSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderSync.h; sourceTree = "<group>"; };
+		ECA7915A2414B92900EDFF51 /* FinderSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderSync.m; sourceTree = "<group>"; };
+		ECA7915C2414B92900EDFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA7915D2414B92900EDFF51 /* FirFinderSycn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirFinderSycn.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA7911D2414B8DF00EDFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA791332414B8E300EDFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA7913E2414B8E300EDFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA791542414B92900EDFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA791172414B8DF00EDFF51 = {
+			isa = PBXGroup;
+			children = (
+				ECA791222414B8DF00EDFF51 /* FirUpload */,
+				ECA791392414B8E300EDFF51 /* FirUploadTests */,
+				ECA791442414B8E300EDFF51 /* FirUploadUITests */,
+				ECA791582414B92900EDFF51 /* FirFinderSycn */,
+				ECA791212414B8DF00EDFF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA791212414B8DF00EDFF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA791202414B8DF00EDFF51 /* FirUpload.app */,
+				ECA791362414B8E300EDFF51 /* FirUploadTests.xctest */,
+				ECA791412414B8E300EDFF51 /* FirUploadUITests.xctest */,
+				ECA791572414B92900EDFF51 /* FirFinderSycn.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA791222414B8DF00EDFF51 /* FirUpload */ = {
+			isa = PBXGroup;
+			children = (
+				ECA791232414B8DF00EDFF51 /* AppDelegate.h */,
+				ECA791242414B8DF00EDFF51 /* AppDelegate.m */,
+				ECA791262414B8DF00EDFF51 /* ViewController.h */,
+				ECA791272414B8DF00EDFF51 /* ViewController.m */,
+				ECA791292414B8E300EDFF51 /* Assets.xcassets */,
+				ECA7912B2414B8E300EDFF51 /* Main.storyboard */,
+				ECA7912E2414B8E300EDFF51 /* Info.plist */,
+				ECA7912F2414B8E300EDFF51 /* main.m */,
+				ECA791312414B8E300EDFF51 /* FirUpload.entitlements */,
+			);
+			path = FirUpload;
+			sourceTree = "<group>";
+		};
+		ECA791392414B8E300EDFF51 /* FirUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA7913A2414B8E300EDFF51 /* FirUploadTests.m */,
+				ECA7913C2414B8E300EDFF51 /* Info.plist */,
+			);
+			path = FirUploadTests;
+			sourceTree = "<group>";
+		};
+		ECA791442414B8E300EDFF51 /* FirUploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA791452414B8E300EDFF51 /* FirUploadUITests.m */,
+				ECA791472414B8E300EDFF51 /* Info.plist */,
+			);
+			path = FirUploadUITests;
+			sourceTree = "<group>";
+		};
+		ECA791582414B92900EDFF51 /* FirFinderSycn */ = {
+			isa = PBXGroup;
+			children = (
+				ECA791592414B92900EDFF51 /* FinderSync.h */,
+				ECA7915A2414B92900EDFF51 /* FinderSync.m */,
+				ECA7915C2414B92900EDFF51 /* Info.plist */,
+				ECA7915D2414B92900EDFF51 /* FirFinderSycn.entitlements */,
+			);
+			path = FirFinderSycn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA7911F2414B8DF00EDFF51 /* FirUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA7914A2414B8E300EDFF51 /* Build configuration list for PBXNativeTarget "FirUpload" */;
+			buildPhases = (
+				ECA7911C2414B8DF00EDFF51 /* Sources */,
+				ECA7911D2414B8DF00EDFF51 /* Frameworks */,
+				ECA7911E2414B8DF00EDFF51 /* Resources */,
+				ECA791642414B92900EDFF51 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA7915F2414B92900EDFF51 /* PBXTargetDependency */,
+			);
+			name = FirUpload;
+			productName = FirUpload;
+			productReference = ECA791202414B8DF00EDFF51 /* FirUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA791352414B8E300EDFF51 /* FirUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA7914D2414B8E300EDFF51 /* Build configuration list for PBXNativeTarget "FirUploadTests" */;
+			buildPhases = (
+				ECA791322414B8E300EDFF51 /* Sources */,
+				ECA791332414B8E300EDFF51 /* Frameworks */,
+				ECA791342414B8E300EDFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA791382414B8E300EDFF51 /* PBXTargetDependency */,
+			);
+			name = FirUploadTests;
+			productName = FirUploadTests;
+			productReference = ECA791362414B8E300EDFF51 /* FirUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA791402414B8E300EDFF51 /* FirUploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA791502414B8E300EDFF51 /* Build configuration list for PBXNativeTarget "FirUploadUITests" */;
+			buildPhases = (
+				ECA7913D2414B8E300EDFF51 /* Sources */,
+				ECA7913E2414B8E300EDFF51 /* Frameworks */,
+				ECA7913F2414B8E300EDFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA791432414B8E300EDFF51 /* PBXTargetDependency */,
+			);
+			name = FirUploadUITests;
+			productName = FirUploadUITests;
+			productReference = ECA791412414B8E300EDFF51 /* FirUploadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ECA791562414B92900EDFF51 /* FirFinderSycn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA791612414B92900EDFF51 /* Build configuration list for PBXNativeTarget "FirFinderSycn" */;
+			buildPhases = (
+				ECA791532414B92900EDFF51 /* Sources */,
+				ECA791542414B92900EDFF51 /* Frameworks */,
+				ECA791552414B92900EDFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirFinderSycn;
+			productName = FirFinderSycn;
+			productReference = ECA791572414B92900EDFF51 /* FirFinderSycn.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA791182414B8DF00EDFF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mgfjx;
+				TargetAttributes = {
+					ECA7911F2414B8DF00EDFF51 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ECA791352414B8E300EDFF51 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ECA7911F2414B8DF00EDFF51;
+					};
+					ECA791402414B8E300EDFF51 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ECA7911F2414B8DF00EDFF51;
+					};
+					ECA791562414B92900EDFF51 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ECA7911B2414B8DF00EDFF51 /* Build configuration list for PBXProject "FirUpload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA791172414B8DF00EDFF51;
+			productRefGroup = ECA791212414B8DF00EDFF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA7911F2414B8DF00EDFF51 /* FirUpload */,
+				ECA791352414B8E300EDFF51 /* FirUploadTests */,
+				ECA791402414B8E300EDFF51 /* FirUploadUITests */,
+				ECA791562414B92900EDFF51 /* FirFinderSycn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA7911E2414B8DF00EDFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA7912A2414B8E300EDFF51 /* Assets.xcassets in Resources */,
+				ECA7912D2414B8E300EDFF51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA791342414B8E300EDFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA7913F2414B8E300EDFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA791552414B92900EDFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA7911C2414B8DF00EDFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA791282414B8DF00EDFF51 /* ViewController.m in Sources */,
+				ECA791302414B8E300EDFF51 /* main.m in Sources */,
+				ECA791252414B8DF00EDFF51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA791322414B8E300EDFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA7913B2414B8E300EDFF51 /* FirUploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA7913D2414B8E300EDFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA791462414B8E300EDFF51 /* FirUploadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA791532414B92900EDFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA7915B2414B92900EDFF51 /* FinderSync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA791382414B8E300EDFF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA7911F2414B8DF00EDFF51 /* FirUpload */;
+			targetProxy = ECA791372414B8E300EDFF51 /* PBXContainerItemProxy */;
+		};
+		ECA791432414B8E300EDFF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA7911F2414B8DF00EDFF51 /* FirUpload */;
+			targetProxy = ECA791422414B8E300EDFF51 /* PBXContainerItemProxy */;
+		};
+		ECA7915F2414B92900EDFF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA791562414B92900EDFF51 /* FirFinderSycn */;
+			targetProxy = ECA7915E2414B92900EDFF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA7912B2414B8E300EDFF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA7912C2414B8E300EDFF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA791482414B8E300EDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECA791492414B8E300EDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECA7914B2414B8E300EDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirUpload/FirUpload.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2V79KT8XV5;
+				INFOPLIST_FILE = FirUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA7914C2414B8E300EDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirUpload/FirUpload.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2V79KT8XV5;
+				INFOPLIST_FILE = FirUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECA7914E2414B8E300EDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUploadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirUpload.app/Contents/MacOS/FirUpload";
+			};
+			name = Debug;
+		};
+		ECA7914F2414B8E300EDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUploadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirUpload.app/Contents/MacOS/FirUpload";
+			};
+			name = Release;
+		};
+		ECA791512414B8E300EDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirUploadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUploadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirUpload;
+			};
+			name = Debug;
+		};
+		ECA791522414B8E300EDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirUploadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUploadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirUpload;
+			};
+			name = Release;
+		};
+		ECA791622414B92900EDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FirFinderSycn/FirFinderSycn.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2V79KT8XV5;
+				INFOPLIST_FILE = FirFinderSycn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUpload.FirFinderSycn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECA791632414B92900EDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FirFinderSycn/FirFinderSycn.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2V79KT8XV5;
+				INFOPLIST_FILE = FirFinderSycn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.FirUpload.FirFinderSycn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA7911B2414B8DF00EDFF51 /* Build configuration list for PBXProject "FirUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA791482414B8E300EDFF51 /* Debug */,
+				ECA791492414B8E300EDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA7914A2414B8E300EDFF51 /* Build configuration list for PBXNativeTarget "FirUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA7914B2414B8E300EDFF51 /* Debug */,
+				ECA7914C2414B8E300EDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA7914D2414B8E300EDFF51 /* Build configuration list for PBXNativeTarget "FirUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA7914E2414B8E300EDFF51 /* Debug */,
+				ECA7914F2414B8E300EDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA791502414B8E300EDFF51 /* Build configuration list for PBXNativeTarget "FirUploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA791512414B8E300EDFF51 /* Debug */,
+				ECA791522414B8E300EDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA791612414B92900EDFF51 /* Build configuration list for PBXNativeTarget "FirFinderSycn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA791622414B92900EDFF51 /* Debug */,
+				ECA791632414B92900EDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA791182414B8DF00EDFF51 /* Project object */;
+}
